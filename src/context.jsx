@@ -23,6 +23,24 @@ export function TaskContext({children}) {
 			title: "Task 3",
 			description: "Description for Task 3",
 			status: "Done"
+		},
+		{
+			id: 4,
+			title: "Task 4",
+			description: "Description for Task 4",
+			status: "Blocked"
+		},
+		{
+			id: 5,
+			title: "Task 5",
+			description: "Description for Task 5",
+			status: "In Progress"
+		},
+		{
+			id: 6,
+			title: "Task 6",
+			description: "Description for Task 6",
+			status: "Done"
 		}
 	]);
 

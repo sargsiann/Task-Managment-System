@@ -8,9 +8,14 @@ function App() {
   return (
     <>
         <TaskContext>
-			<Column title="To Do" />
-			<Column title="In Progress" />
-			<Column title="Done" />
+			<div className="App">
+				<div className="columns">
+					<Column status="To Do" />
+					<Column status="In Progress" />
+					<Column status="Done" />
+					<Column status="Blocked" />
+				</div>
+			</div>
 		</TaskContext>
     </>
   )
